@@ -23,7 +23,8 @@ body {
 }
 .logo {
     font-size: 35px;
-    font-weight: 800;
+    font-weight: 900;
+    font-style: italic;
     color: rgb(230, 83, 60);
 }
 .menu {
@@ -221,4 +222,57 @@ body {
     width: 370px;
     border-radius: 18px;
     margin-right: 30px;
+}
+
+/* Meet Our Team section style */
+
+
+/* footer section style */
+.footer{
+    width: 100%;
+    height: 370px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+    padding: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+.footer-colum-1 h2{
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    color: rgb(230, 83, 60);
+}
+.footer-colum-1 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.footer-colum-2 h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 700;
+}
+.footer-colum-2 a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 15px 0;
+    display: block;
+}
+
+/* copy-write section style */
+.copy-write p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
