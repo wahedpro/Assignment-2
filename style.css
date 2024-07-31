@@ -1,5 +1,6 @@
 /* font import */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 /* default style */
 * {
@@ -10,9 +11,12 @@ body {
     font-family: "Inter", sans-serif;
     background-color: black;
 }
+.gradient-background{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
 .container {
     width: 80%;
-    margin: 16px auto;
+    margin: 0px auto;
 }
 /* Navbar Section style */
 .navbar-section {
@@ -20,6 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    padding-top: 16px;
 }
 .logo {
     font-size: 35px;
@@ -27,7 +32,7 @@ body {
     font-style: italic;
     color: rgb(230, 83, 60);
 }
-.menu {
+.menu{
     display: flex;
     gap: 50px;
     align-items: center;
@@ -39,6 +44,8 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
     margin-right: 15px;
+    font-size: 14px;
+    font-weight: 400;
 }
 .menu .select {
     background-color: rgb(230, 83, 60);
@@ -47,6 +54,7 @@ body {
     color: #ffffff;
     width: 70px;
     font-weight: 600;
+    font-size: 14px;
     text-align: center;
 }
 /* banner section style */
@@ -54,16 +62,23 @@ body {
     height: 450px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 .banner-content {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.text-style{
+    font-family: "Parisienne";
+    font-weight: 400;
+    font-size: 150px;
+}
 .banner-content h3 {
     font-size: 78px;
     font-weight: 900px;
     color: #ffffff;
+    line-height: 120%;
 }
 .banner-content p {
     color: rgba(255, 255, 255, 0.5);
@@ -147,8 +162,8 @@ body {
 }
 /* Change Your Habits section style */
 .header-content {
-    margin-top: 30px;
-    margin-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .header-content h3 {
     font-size: 48px;
