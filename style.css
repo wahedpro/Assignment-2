@@ -116,6 +116,19 @@ body {
     background: rgb(230, 83, 60);
 }
 
+.btn-3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 42px;
+    border: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255);
+    line-height: 120%;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+    display: none;
+}
+
 .btn-2 {
     width: 200px;
     height: 50px;
@@ -214,6 +227,7 @@ body {
 .habits-card .card img {
     border-radius: 100px;
     margin-bottom: 25px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
 }
 
 .habits-card .card h4 {
@@ -479,4 +493,234 @@ table {
 
 .line {
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* -------------mobile responsive --------------- */
+
+.ham-burger{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    /* This is nav section */
+    .menu{
+        display: none;
+    }
+
+    .ham-burger{
+        display: block;
+        background-color: #ffffff;
+    }
+
+    /* this is banner section */
+    .banner {
+        height: 790px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-content h3 {
+        font-size: 35px;
+        font-weight: 900px;
+        color: #ffffff;
+        line-height: 120%;
+        padding-bottom: 20px;
+    }
+
+    .text-style {
+        font-family: "Parisienne";
+        font-weight: 400;
+        font-size: 70px;
+    }
+
+    .banner-content p {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+
+    .btn-1{
+        display: none;
+    }
+
+    .btn-3{
+        display: block;
+    }
+
+    .banner-content{
+        padding-bottom: 40px;
+    }
+
+    /* this is header section */
+    .banner-card {
+        display: flex;
+    }
+
+    .card-1 {
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 150px;
+        margin-right: 10px;
+    }
+    
+    .card-2 {
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 5px;
+        margin-top: 50px;
+        margin-right: 5px;
+    }
+
+    .card-content h3{
+        font-size: 18px;
+    }
+
+    .card-content p{
+        font-size: 11px;
+    }
+
+    .box {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* This is Change Your Habits section */
+    .header-content h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .header-content p {
+        font-size: 12px;
+    }
+
+    .habits-card {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    /* Run an Extra Mile Easily section */
+    .extra-mile-section {
+        height: 470px;
+        flex-direction: column;
+    }
+    
+    .extra-mile-content {
+        margin-left: 10px;
+        padding: 15px;
+    }
+    
+    .extra-mile-content h3 {
+        font-size: 30px;
+    }
+    
+    .extra-mile-content p {
+        font-size: 14px;
+    }
+
+    .extra-mile-section{
+        padding-bottom: 10px;
+    }
+
+    .extra-mile-section img {
+        height: 200px;
+        width: 270px;
+        margin: 10px auto;
+    }
+
+    /* BMI Calculator section */
+    .bmi-header-content {
+        width: auto;
+        margin: 0 auto;
+        padding-bottom: 60px;
+        padding-left: 40px;
+    }
+    
+    .bmi-header-content h3 {
+        font-size: 30px;
+    }
+    
+    /* .bmi-calculator {
+        width: 100%;
+        background: rgb(34, 34, 34);
+    }
+     */
+
+
+    .bmi-calculator-content {
+        height: 800px;
+        flex-direction: column;
+    }
+    
+    .bmi-calculator-chart h3 {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .bmi-calculator-section h3 {
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    
+    .bmi-calculator-section p {
+        width:fit-content;
+        padding-bottom: 15px;
+    }
+    
+    .bmi-calculator-section input {
+        height: 40px;
+        width: 280px;
+        padding: 5px;
+        margin: 5px 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .bmi-calculator-section select {
+        padding: 10px;
+        margin: 0px 8px 8px 0;
+        font-size: 16px;
+        border: none;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+    }
+    
+    .select-1 {
+        height: 50px;
+        width: 290px;
+    
+    }
+    
+    .select-2 {
+        height: 50px;
+        width: 583px;
+    }
+    
+
+    /* Meet Our Team section */
+    .meet-out-team {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .meet-content-card {
+        width: 270px;
+        height: 260px;
+    }
+    
 }
