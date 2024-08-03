@@ -647,15 +647,8 @@ table {
         font-size: 30px;
     }
     
-    /* .bmi-calculator {
-        width: 100%;
-        background: rgb(34, 34, 34);
-    }
-     */
-
-
     .bmi-calculator-content {
-        height: 800px;
+        height: 650px;
         flex-direction: column;
     }
     
@@ -676,38 +669,24 @@ table {
     
     .bmi-calculator-section input {
         height: 40px;
-        width: 280px;
-        padding: 5px;
-        margin: 5px 0;
-        font-size: 16px;
-        border: none;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.6);
-    }
-    
-    .bmi-calculator-section select {
-        padding: 10px;
-        margin: 0px 8px 8px 0;
-        font-size: 16px;
-        border: none;
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.6);
+        width: 140px;
     }
     
     .select-1 {
         height: 50px;
-        width: 290px;
+        width: 150px;
     
     }
     
     .select-2 {
         height: 50px;
-        width: 583px;
+        width: 305px;
     }
     
-
+    /* .btn-1{
+        display: block;
+        margin-bottom: 20px;
+    } */
     /* Meet Our Team section */
     .meet-out-team {
         height: auto;
@@ -723,4 +702,23 @@ table {
         height: 260px;
     }
     
+    
+/* footer section style */
+.footer {
+    height: 750px;
+    align-items: center;
+}
+
+.footer-content {
+    flex-direction: column;
+}
+
+.footer-colum-1 {
+    margin-bottom: 20px;
+}
+
+.footer-colum-2 {
+    margin-bottom: 20px;
+}
+
 }
