@@ -14,7 +14,7 @@ body {
 }
 
 .gradient-background {
-    background: linear-gradient(180deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(196, 196, 196, 0) 100%);
 }
 
 .container {
@@ -246,6 +246,13 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .habits-card .card img {
@@ -528,6 +535,9 @@ table {
 
 @media screen and (max-width: 576px) {
     /* This is nav section */
+    body{
+        width: 576px;
+    }
     .menu{
         display: none;
     }
