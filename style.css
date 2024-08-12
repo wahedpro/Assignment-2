@@ -726,6 +726,10 @@ table {
         top: 310px;
     }
     
+    .team-hide{
+        display: none;
+    }
+
     /* footer section style */
     .footer {
         height: 750px;
